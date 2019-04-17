@@ -1,0 +1,63 @@
+
+  body{
+    background-image: url(../images/kamehouse.jpg);
+    text-align: center;
+    position: relative;
+    height: 100%
+  }
+  
+  #container{
+    margin: 5% auto;
+    background-color:rgba(248, 179, 248, 0.534);
+    width: 70%;
+    height: 90%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #timerDisplay{
+    position: relative;
+  }
+
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    background:transparent;
+    font-size: 2em;
+    border: 1px solid dodgerblue;
+  }
+  
+  button:hover {
+    border:2px dotted dodgerblue;
+    background:rgb(199, 255, 192);
+  }
+
+  h1{
+    font-size: 4em;
+    font-weight: bold;
+    color:blue;
+    margin: auto;
+    padding-top: 2.5%;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+
+  h6{
+      color: aliceblue;
+  }
+  
+  #start{
+    margin-top: 20px;
+    border:2px dotted rgb(82, 134, 185);
+    background: rgb(199, 255, 192);
+    font-size: 2em;
+    color: rgb(148, 0, 69);
+  }
+
+
+
