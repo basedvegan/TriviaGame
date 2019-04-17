@@ -83,6 +83,7 @@ var trivia = {
             displayContent.append('<button class="choices" id="button"' + 'data-name="' + questions[this.currentQ].answerChoices[i] + '">' + questions[this.currentQ].answerChoices[i] + '</button>');
         }
     },
+    //reset clock and move onto next question
     nextQuestion: function () {
         trivia.clock = timerValue;
         $('#secondsLeft').html(trivia.clock);
