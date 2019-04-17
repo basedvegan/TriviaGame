@@ -93,7 +93,7 @@ var trivia = {
     outOfTime: function () {
         clearInterval(timer);
         $('#secondsLeft').html(trivia.clock);
-        displayContent.html("<h2>you took too long!</h>");
+        displayContent.html("<h2>you took too long!</h2>");
         displayContent.append('<h2>The answer is: ' + questions[this.currentQ].correctChoice);
         displayContent.append('<img src="' + questions[this.currentQ].gif + '" />');
     //3 seconds then show the next question
@@ -120,7 +120,7 @@ var trivia = {
         //stop timer
         clearInterval(timer);
         //overwrite questions on page with winning announcement
-        displayContent.html('<h2>' + questions[trivia.currentQ].correctChoice + ' is correct!<h2>');
+        displayContent.html('<h2>' + questions[trivia.currentQ].correctChoice + ' is correct!</h2>');
         //add gif of the correct answer
         displayContent.append('<img src="' + questions[trivia.currentQ].gif + '" />');
         //display result for 3 seconds 
